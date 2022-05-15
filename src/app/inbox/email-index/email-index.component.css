@@ -1,0 +1,24 @@
+.item a {
+  color: black;
+}
+
+a.active {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+a.active .content {
+  color: #5b5959;
+}
+
+a.active .content .header {
+  color: #5b5959;
+}
+
+a.active:before {
+  content: '>';
+  font-size: 20px;
+  margin-right: 10px;
+  color: #5b5959;
+}
